@@ -7,6 +7,7 @@ export const About: React.FC = (props: IAppProps) => {
   return (
     <div className="about">
       <div className="row">
+        <div className="col-sm-1"></div>
         <div className="col-sm-2">
           <div className="my-img-section">
             <img className="my-img" src={praveen_image}></img>
@@ -15,9 +16,10 @@ export const About: React.FC = (props: IAppProps) => {
         <div className="col-sm-8">
           <div className="about-me">
             <h2>About Me</h2>
+            <h4>I'm Praveen Kumar Banda,</h4>
           </div>
         </div>
-        <div className="col-sm-2">aa</div>
+        <div className="col-sm-1">aa</div>
       </div>
     </div>
   );

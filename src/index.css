@@ -7,11 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .row {
-  margin: 0;
+  margin: 0 !important;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+header {
+  color: #ffffff;
 }
 header.smaller {
   height: 75px;
@@ -286,13 +289,16 @@ footer ul li {
 .about {
   background-color: rgb(43, 43, 43);
   height: 100%;
+  color: #ffffff;
+  text-align: left;
 }
 .about-me {
   padding-top: 100px;
 }
 
 .my-img-section {
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .my-img {
   border-radius: 50%;

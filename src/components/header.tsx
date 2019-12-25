@@ -63,7 +63,7 @@ export const Header: React.FC = (props: IAppProps) => {
             <Link
               activeClass="active"
               className="menu-link"
-              to="contact"
+              to="about"
               spy={true}
               smooth={true}
               duration={500}

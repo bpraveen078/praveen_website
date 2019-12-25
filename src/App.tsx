@@ -58,13 +58,13 @@ const App: React.FC = () => {
             <Element name="works" className="element">
               <Works />
             </Element>
-            <Element name="resume" className="element">
+            <Element name="skills" className="element">
               <SkillsStack />
               <Skills />
             </Element>
-            <Element name="contact" className="element">
+            {/* <Element name="contact" className="element">
               contact
-            </Element>
+            </Element> */}
           </div>
         </div>
 

@@ -62,7 +62,7 @@ export const Footer: React.FC = (props: IAppProps) => {
               <Link
                 activeClass="active"
                 className="footer-menu-link"
-                to="contact"
+                to="about"
                 spy={true}
                 smooth={true}
                 duration={500}
@@ -102,16 +102,7 @@ export const Footer: React.FC = (props: IAppProps) => {
           <ul>
             <li>SERVICES</li>
             <li>
-              <a href="#0">Bacon</a>
-            </li>
-            <li>
-              <a href="#0">Sausage Services</a>
-            </li>
-            <li>
-              <a href="#0">Cheese</a>
-            </li>
-            <li>
-              <a href="#0">Cider Apples</a>
+              <a href="#0">Web Development</a>
             </li>
           </ul>
         </div>

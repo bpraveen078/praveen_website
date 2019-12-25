@@ -40,9 +40,7 @@ const App: React.FC = () => {
             <div className="praveen-title">
               Praveen Kumar
               <div className="my-role">Full stack Developer</div>
-              <div>
-                <Social />
-              </div>
+              <div>{/* <Social /> */}</div>
             </div>
           </div>
         </Element>

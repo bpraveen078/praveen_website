@@ -8,7 +8,8 @@ import {
   CartesianGrid,
   Tooltip,
   Legend,
-  LabelList
+  LabelList,
+  ResponsiveContainer
 } from "recharts";
 
 const data = [
@@ -73,29 +74,31 @@ export default class SkillsStack extends PureComponent {
           <div className="col-sm-2">
             <h2 className="underline">Skills</h2>
           </div>
-          <div className="col-sm-8 content">
-            <BarChart
-              width={1000}
-              height={300}
-              data={data}
-              margin={{
-                top: 5,
-                right: 40,
-                left: 0,
-                bottom: 5
-              }}
-            >
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="name" />
-              <YAxis />
-              <Tooltip />
-              <Legend />
+          <div className="col-sm-8 content width-100">
+            <ResponsiveContainer height={300}>
+              <BarChart
+                width={1000}
+                height={300}
+                data={data}
+                margin={{
+                  top: 5,
+                  right: 40,
+                  left: 0,
+                  bottom: 5
+                }}
+              >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis />
+                <Tooltip />
+                <Legend />
 
-              <Bar dataKey="exp" fill="#82ca9d" minPointSize={10}>
-                {" "}
-                <LabelList dataKey="exp" content={renderCustomizedLabel} />
-              </Bar>
-            </BarChart>
+                <Bar dataKey="exp" fill="#82ca9d" minPointSize={10}>
+                  {" "}
+                  <LabelList dataKey="exp" content={renderCustomizedLabel} />
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
           </div>
           <div className="col-sm-1"></div>
         </div>

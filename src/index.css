@@ -281,7 +281,7 @@ footer ul li {
     display: block;
     float: none;
     margin: 0 auto;
-    height: 100px;
+    height: 10px;
     line-height: 80px;
     text-align: center;
   }
@@ -324,14 +324,66 @@ footer ul li {
     float: left;
   }
 }
-
+.menu-icon {
+  display: none;
+}
 @media all and (max-width: 600px) {
+  .row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .skills {
+    padding-left: 10px !important;
+  }
+  .praveen-title {
+    margin: 0;
+    position: absolute;
+    top: 5% !important ;
+    transform: translateY(-50%);
+    transform: translateX(0%) !important;
+    width: 100%;
+    font-size: 62px !important;
+    color: #fff;
+  }
+  .menu-icon {
+    text-align: right;
+    padding-right: 23px;
+    padding-top: 9px;
+  }
+  .my-img-section {
+    text-align: center;
+    padding-top: 40px !important;
+    padding-bottom: 8px !important;
+  }
+  #js-header {
+    display: none;
+  }
   .container {
     width: 100%;
   }
 
   footer a {
     display: block;
+  }
+
+  header nav {
+    display: grid;
+    float: right;
+  }
+
+  header nav a {
+    line-height: 150px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 1em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  header nav a:hover {
   }
 }
 .menu-link {
@@ -455,4 +507,7 @@ footer ul li {
   text-align: left;
   font-size: 16px;
   padding: 0;
+}
+.width-100 {
+  width: 100%;
 }

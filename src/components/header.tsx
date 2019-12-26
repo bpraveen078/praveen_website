@@ -1,12 +1,16 @@
 import * as React from "react";
 import { Link } from "react-scroll";
+import "../menu-styles.css";
 
 export interface IAppProps {}
 
 export const Header: React.FC = (props: IAppProps) => {
   return (
     <div>
-      <header id="js-header">
+      <header>
+        <div className="pull-right menu-icon">
+          <i className="fa fa-bars"></i>
+        </div>
         <div className="container clearfix">
           <h1 id="logo"></h1>
           <nav>

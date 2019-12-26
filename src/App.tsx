@@ -31,6 +31,13 @@ const App: React.FC = () => {
       console.log("end", arguments);
     });
   });
+  useEffect(() => {}, []);
+  useEffect(() => {
+    return () => {
+      Events.scrollEvent.remove("begin");
+      Events.scrollEvent.remove("end");
+    };
+  }, []);
   return (
     <div className="App">
       <div id="wrapper">

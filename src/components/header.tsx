@@ -7,7 +7,7 @@ export interface IAppProps {}
 export const Header: React.FC = (props: IAppProps) => {
   return (
     <div>
-      <header>
+      <header id="js-header">
         <div className="pull-right menu-icon">
           <i className="fa fa-bars"></i>
         </div>

@@ -22,22 +22,22 @@ import SkillsStack from "./components/skills-stack";
 import { Skills } from "./components/skills";
 
 const App: React.FC = () => {
-  useEffect(() => {
-    Events.scrollEvent.register("begin", function() {
-      console.log("begin", arguments);
-    });
+  // useEffect(() => {
+  //   Events.scrollEvent.register("begin", function() {
+  //     console.log("begin", arguments);
+  //   });
 
-    Events.scrollEvent.register("end", function() {
-      console.log("end", arguments);
-    });
-  });
-  useEffect(() => {}, []);
-  useEffect(() => {
-    return () => {
-      Events.scrollEvent.remove("begin");
-      Events.scrollEvent.remove("end");
-    };
-  }, []);
+  //   Events.scrollEvent.register("end", function() {
+  //     console.log("end", arguments);
+  //   });
+  // });
+  // useEffect(() => {}, []);
+  // useEffect(() => {
+  //   return () => {
+  //     Events.scrollEvent.remove("begin");
+  //     Events.scrollEvent.remove("end");
+  //   };
+  // }, []);
   return (
     <div className="App">
       <div id="wrapper">

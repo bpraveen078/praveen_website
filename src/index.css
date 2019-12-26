@@ -328,6 +328,9 @@ footer ul li {
   display: none;
 }
 @media all and (max-width: 600px) {
+  .menu-icon {
+    display: block;
+  }
   .row {
     padding-left: 15px;
     padding-right: 15px;
@@ -356,7 +359,7 @@ footer ul li {
     padding-bottom: 8px !important;
   }
   #js-header {
-    display: none;
+    /* display: none; */
   }
   .container {
     width: 100%;
@@ -368,12 +371,13 @@ footer ul li {
 
   header nav {
     display: grid;
-    float: right;
+    position: fixed;
+    background-color: rgb(43, 43, 43);
+    height: 250px;
+    width: 100%;
   }
 
   header nav a {
-    line-height: 150px;
-    margin-left: 20px;
     font-weight: 500;
     font-size: 1em;
     -webkit-transition: all 0.3s;

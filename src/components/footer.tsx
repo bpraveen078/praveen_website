@@ -6,8 +6,8 @@ export interface IAppProps {}
 export const Footer: React.FC = (props: IAppProps) => {
   return (
     <footer>
-      <div className="container clearfix">
-        <div className="col" id="col-1">
+      <div className="container clearfix row">
+        <div className="col" id="col-2">
           <ul>
             <li></li>
             <li>
@@ -72,7 +72,7 @@ export const Footer: React.FC = (props: IAppProps) => {
             </li>
           </ul>
         </div>
-        <div className="col" id="col-2">
+        <div className="col" id="col-3">
           <ul>
             <li>SOCIAL</li>
             <li>
@@ -98,7 +98,7 @@ export const Footer: React.FC = (props: IAppProps) => {
             </li>
           </ul>
         </div>
-        <div className="col" id="col-3">
+        <div className="col" id="col-4">
           <ul>
             <li>SERVICES</li>
             <li>
@@ -106,9 +106,9 @@ export const Footer: React.FC = (props: IAppProps) => {
             </li>
           </ul>
         </div>
-        <div id="copy">
-          &#xa9; Designed and built by <a href="">@pbanda</a> 2020
-        </div>
+      </div>
+      <div id="copy">
+        &#xa9; Designed and built by <a href="">@pbanda</a> 2020
       </div>
     </footer>
   );

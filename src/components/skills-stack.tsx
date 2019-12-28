@@ -90,7 +90,10 @@ export default class SkillsStack extends PureComponent {
               >
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
-                <YAxis />
+                {
+                  // @ts-ignore
+                  <YAxis />
+                }
                 <Tooltip />
                 <Legend />
 

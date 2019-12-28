@@ -60,11 +60,12 @@ const App: React.FC = () => {
             <Element name="education" className="element">
               <Education />
             </Element>
-            <Element name="works" className="element">
-              <Works />
-            </Element>
+
             <Element name="skills" className="element">
               <SkillsStack />
+            </Element>
+            <Element name="works" className="element">
+              <Works />
             </Element>
             {/* <Element name="contact" className="element">
               contact

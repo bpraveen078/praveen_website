@@ -118,7 +118,9 @@ body {
   font-size: 16px;
   line-height: 1.8;
 }
-
+.active {
+  border-bottom: 4px solid #fff;
+}
 a {
   text-decoration: none;
   font-weight: 300;
@@ -400,6 +402,7 @@ footer ul li {
 .header-background {
   height: 100vh;
   background: url(./images/pep1.jpg);
+
   position: relative;
   background-size: cover;
 }
@@ -488,7 +491,7 @@ footer ul li {
   background-size: cover;
 }
 .content {
-  font-size: 18px;
+  font-size: 17px;
 }
 .underline {
   text-decoration: underline;
@@ -498,6 +501,9 @@ footer ul li {
   height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
+  background: url(./images/w4.jpg);
+  background-size: cover;
+  color: #fff;
 }
 .technology-stack {
   text-align: left;

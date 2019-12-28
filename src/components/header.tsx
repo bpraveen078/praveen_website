@@ -44,16 +44,7 @@ export const Header: React.FC = (props: IAppProps) => {
             >
               Education
             </Link>
-            <Link
-              activeClass="active"
-              className="menu-link"
-              to="works"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              Works
-            </Link>
+
             <Link
               activeClass="active"
               className="menu-link"
@@ -63,6 +54,16 @@ export const Header: React.FC = (props: IAppProps) => {
               duration={500}
             >
               Skills
+            </Link>
+            <Link
+              activeClass="active"
+              className="menu-link"
+              to="works"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Works
             </Link>
             <Link
               activeClass="active"

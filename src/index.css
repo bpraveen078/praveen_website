@@ -366,6 +366,7 @@ header.smaller nav a {
 .menu-link {
   font-weight: 600;
   font-size: 18px;
+  cursor: pointer;
 }
 .element {
   min-height: 200px;

@@ -16,7 +16,7 @@ export const Contact: React.FC = (props: IAppProps) => {
               <div className="form-group col-md-6">
                 {
                   // @ts-ignore
-                  <label for="name">Name</label>
+                  <label htmlFor="name">Name</label>
                 }
                 <input
                   type="name"
@@ -28,7 +28,7 @@ export const Contact: React.FC = (props: IAppProps) => {
               <div className="form-group col-md-6">
                 {
                   // @ts-ignore
-                  <label for="email">Email</label>
+                  <label htmlFor="email">Email</label>
                 }
                 <input
                   type="email"
@@ -40,7 +40,7 @@ export const Contact: React.FC = (props: IAppProps) => {
               <div className="form-group col-md-12">
                 {
                   // @ts-ignore
-                  <label for="subject">Subject</label>
+                  <label htmlFor="subject">Subject</label>
                 }
                 <input
                   type="subject"
@@ -52,7 +52,7 @@ export const Contact: React.FC = (props: IAppProps) => {
               <div className="form-group col-md-12">
                 {
                   // @ts-ignore
-                  <label for="message">Message</label>
+                  <label htmlFor="message">Message</label>
                 }
                 {
                   <textarea

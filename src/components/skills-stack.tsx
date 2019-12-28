@@ -11,6 +11,7 @@ import {
   LabelList,
   ResponsiveContainer
 } from "recharts";
+import { Skills } from "./skills";
 
 const data = [
   {
@@ -68,7 +69,7 @@ export default class SkillsStack extends PureComponent {
 
   render() {
     return (
-      <div className="technology-stack">
+      <div className="section-child technology-stack">
         <div className="row">
           <div className="col-sm-1"></div>
           <div className="col-sm-2">
@@ -102,6 +103,7 @@ export default class SkillsStack extends PureComponent {
           </div>
           <div className="col-sm-1"></div>
         </div>
+        <Skills />
       </div>
     );
   }

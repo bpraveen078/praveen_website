@@ -4,7 +4,7 @@ export interface IAppProps {}
 
 export const Education: React.FC = (props: IAppProps) => {
   return (
-    <div className="education">
+    <div className="section-child education">
       <div className="row">
         <div className="col-sm-1"></div>
         <div className="col-sm-2">

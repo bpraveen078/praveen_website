@@ -65,7 +65,6 @@ const App: React.FC = () => {
             </Element>
             <Element name="skills" className="element">
               <SkillsStack />
-              <Skills />
             </Element>
             {/* <Element name="contact" className="element">
               contact

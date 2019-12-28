@@ -426,7 +426,7 @@ footer ul li {
   height: 100%;
   color: #ffffff;
   text-align: left;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 .about-me {
   padding-top: 50px;
@@ -482,9 +482,10 @@ footer ul li {
 }
 .education {
   text-align: left;
-  height: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  color: #fff;
+  background-image: url("./images/u3.jpg");
+  position: relative;
+  background-size: cover;
 }
 .content {
   font-size: 18px;
@@ -501,7 +502,6 @@ footer ul li {
 .technology-stack {
   text-align: left;
   height: 100%;
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 .footer-menu-link {
@@ -514,4 +514,9 @@ footer ul li {
 }
 .width-100 {
   width: 100%;
+}
+.section-child {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  min-height: 90vh;
 }

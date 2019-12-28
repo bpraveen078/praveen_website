@@ -4,14 +4,14 @@ export interface IAppProps {}
 
 export const Skills: React.FC = (props: IAppProps) => {
   return (
-    <div>
+    <div className="">
       <div className="row">
         <div className="col-sm-1"></div>
         <div className="col-sm-2">
           <h2 className="underline"></h2>
         </div>
         <div className="col-sm-8 content">
-          <ul className="skills">
+          <ul className=" skills">
             <li className="skill-item">
               Total 5 years of professional IT experience in the field of
               Software Development{" "}

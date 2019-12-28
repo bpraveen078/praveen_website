@@ -5,7 +5,7 @@ export interface IAppProps {}
 
 export const About: React.FC = (props: IAppProps) => {
   return (
-    <div className="about">
+    <div className="section-child about">
       <div className="row">
         <div className="col-sm-1"></div>
         <div className="col-sm-2">

@@ -387,6 +387,7 @@ header.smaller nav a {
   width: 100%;
   font-size: 75px;
   color: #fff;
+  font-style: italic;
 }
 .my-role {
   font-size: 40px;

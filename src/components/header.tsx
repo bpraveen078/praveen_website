@@ -1,19 +1,32 @@
-import * as React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
 import "../menu-styles.css";
 
 export interface IAppProps {}
 
 export const Header: React.FC = (props: IAppProps) => {
+  const [isOpen, setOpen] = useState(false);
+  const toggleMenuClick = () => {
+    setOpen(!isOpen);
+  };
+  useEffect(() => {
+    setOpen(false);
+  }, []);
   return (
     <div>
       <header id="js-header">
         <div className="pull-right menu-icon">
-          <i className="fa fa-bars"></i>
+          {isMobile && <i onClick={toggleMenuClick} className="fa fa-bars"></i>}
         </div>
         <div className="container clearfix">
           <h1 id="logo"></h1>
-          <nav>
+          <nav className={isOpen ? "nav-mobile" : "hide-menu"}>
             <Link
               activeClass="active"
               className="menu-link"
@@ -68,7 +81,7 @@ export const Header: React.FC = (props: IAppProps) => {
             <Link
               activeClass="active"
               className="menu-link"
-              to="about"
+              to="contact"
               spy={true}
               smooth={true}
               duration={500}

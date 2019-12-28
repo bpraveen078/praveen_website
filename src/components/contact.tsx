@@ -56,7 +56,7 @@ export const Contact: React.FC = (props: IAppProps) => {
                 }
                 {
                   <textarea
-                    class="form-control"
+                    className="form-control"
                     id="message"
                     //@ts-ignore
                     rows="3"

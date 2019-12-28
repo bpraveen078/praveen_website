@@ -365,7 +365,7 @@ header.smaller nav a {
 
 .menu-link {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
 }
 .element {
   min-height: 200px;
@@ -496,4 +496,7 @@ header.smaller nav a {
   padding-top: 90px;
   padding-bottom: 50px;
   min-height: 90vh;
+}
+.contact {
+  text-align: left;
 }

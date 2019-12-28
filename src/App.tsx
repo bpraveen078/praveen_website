@@ -20,6 +20,7 @@ import { Education } from "./components/education";
 import { Works } from "./components/works";
 import SkillsStack from "./components/skills-stack";
 import { Skills } from "./components/skills";
+import { Contact } from "./components/contact";
 
 const App: React.FC = () => {
   // useEffect(() => {
@@ -67,9 +68,9 @@ const App: React.FC = () => {
             <Element name="works" className="element">
               <Works />
             </Element>
-            {/* <Element name="contact" className="element">
-              contact
-            </Element> */}
+            <Element name="contact" className="element">
+              <Contact />
+            </Element>
           </div>
         </div>
 

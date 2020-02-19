@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import praveen_image from "../images/praveen.jpg";
 import { Link } from "react-scroll";
 import {
   BrowserView,
@@ -21,9 +22,21 @@ export const Header: React.FC = (props: IAppProps) => {
   return (
     <div>
       <header id="js-header">
-        <div className="pull-right menu-icon">
-          {isMobile && <i onClick={toggleMenuClick} className="fa fa-bars"></i>}
-        </div>
+        {isMobile && (
+          <div className="my-img-mobile-container">
+            <div className="">
+              <img
+                id="my-img-mobile"
+                className="my-img-mobile-hide"
+                src={praveen_image}
+              ></img>
+            </div>
+            <div className="menu-icon">
+              <i onClick={toggleMenuClick} className="fa fa-bars"></i>
+            </div>
+          </div>
+        )}
+
         <div className="container clearfix">
           <h1 id="logo"></h1>
           <nav className={isOpen ? "nav-mobile" : "hide-menu"}>

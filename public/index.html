@@ -51,12 +51,16 @@
   function resizeHeaderOnScroll() {
     const distanceY = window.pageYOffset || document.documentElement.scrollTop,
       shrinkOn = 200,
-      headerEl = document.getElementById("js-header");
-
+      headerEl = document.getElementById("js-header"),
+      myImgMobile = document.getElementById("my-img-mobile");
     if (distanceY > shrinkOn) {
       headerEl.classList.add("smaller");
+      myImgMobile.classList.remove("my-img-mobile-hide");
+      myImgMobile.classList.add("my-img-mobile");
     } else {
       headerEl.classList.remove("smaller");
+      myImgMobile.classList.remove("my-img-mobile");
+      myImgMobile.classList.add("my-img-mobile-hide");
     }
   }
 

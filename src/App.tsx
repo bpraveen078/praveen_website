@@ -46,9 +46,11 @@ const App: React.FC = () => {
           <Header />
           <div className="header-background">
             <div className="praveen-title">
-              Praveen Kumar
-              <div className="my-role">Full stack Developer</div>
-              <div>{/* <Social /> */}</div>
+              <div>
+                Praveen Kumar
+                <div className="my-role">Full stack Developer</div>
+                <div>{/* <Social /> */}</div>
+              </div>
             </div>
           </div>
         </Element>

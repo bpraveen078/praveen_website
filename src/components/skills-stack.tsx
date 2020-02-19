@@ -9,7 +9,8 @@ import {
   Tooltip,
   Legend,
   LabelList,
-  ResponsiveContainer
+  ResponsiveContainer,
+  Text
 } from "recharts";
 import { Skills } from "./skills";
 
@@ -64,9 +65,24 @@ const renderCustomizedLabel = (props: any) => {
   );
 };
 
-export default class SkillsStack extends PureComponent {
-  static jsfiddleUrl = "https://jsfiddle.net/alidingling/a5Leskck/";
+const CustomizedLabelB = () => {
+  return (
+    <Text
+      x={0}
+      y={0}
+      dx={-144}
+      dy={40}
+      textAnchor="start"
+      width={180}
+      transform="rotate(-90)"
+      //scaleToFit={true}
+    >
+      Years
+    </Text>
+  );
+};
 
+export default class SkillsStack extends PureComponent {
   render() {
     return (
       <div className="section-child technology-stack">
@@ -92,7 +108,7 @@ export default class SkillsStack extends PureComponent {
                 <XAxis dataKey="name" />
                 {
                   // @ts-ignore
-                  <YAxis />
+                  <YAxis label={<CustomizedLabelB />} />
                 }
                 <Tooltip />
                 <Legend />

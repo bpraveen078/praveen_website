@@ -1,5 +1,7 @@
 import * as React from "react";
 import praveen_image from "../images/praveen.jpg";
+// @ts-ignore
+import resume from "../images/Praveen_Resume.doc";
 
 export interface IAppProps {}
 
@@ -59,7 +61,7 @@ export const About: React.FC = (props: IAppProps) => {
             </div>
             <div className="col-sm-3">
               {" "}
-              <a className="button-download">
+              <a className="button-download" href={resume}>
                 <i className="fa fa-download"></i> Download Resume
               </a>
             </div>

@@ -54,13 +54,18 @@
       headerEl = document.getElementById("js-header"),
       myImgMobile = document.getElementById("my-img-mobile");
     if (distanceY > shrinkOn) {
-      headerEl.classList.add("smaller");
-      myImgMobile.classList.remove("my-img-mobile-hide");
-      myImgMobile.classList.add("my-img-mobile");
+      if (headerEl.classList) headerEl.classList.add("smaller");
+      if (myImgMobile.classList) {
+        myImgMobile.classList.remove("my-img-mobile-hide");
+        myImgMobile.classList.add("my-img-mobile");
+      }
     } else {
-      headerEl.classList.remove("smaller");
-      myImgMobile.classList.remove("my-img-mobile");
-      myImgMobile.classList.add("my-img-mobile-hide");
+      if (headerEl.classList) headerEl.classList.remove("smaller");
+      {
+        myImgMobile.classList.remove("my-img-mobile");
+        if (myImgMobile.classList)
+          myImgMobile.classList.add("my-img-mobile-hide");
+      }
     }
   }
 

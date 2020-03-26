@@ -58,6 +58,9 @@ export const About: React.FC = (props: IAppProps) => {
               <br />
               <span className="span-about-contact-label">Email</span>:
               praveen@pbanda.in
+              <br />
+              <span className="span-about-contact-label">Mobile</span>:+91
+              9866078078
             </div>
             <div className="col-sm-3">
               {" "}

@@ -30,8 +30,8 @@ export const Skills: React.FC = (props: IAppProps) => {
         <div className="col-sm-8 content">
           <ul className=" skills">
             <li className="skill-item">
-              Total {calcDate(today, past)} of professional IT experience in the
-              field of Software Development{" "}
+              Total 5.4 years of professional IT experience in the field of
+              Software Development{" "}
             </li>
             <li className="skill-item">
               2.5 Year of Experience on React Js, Redux, Redux-Saga and React
@@ -77,6 +77,7 @@ export const Skills: React.FC = (props: IAppProps) => {
             </li>
             <li className="skill-item">knowledge on jwt authentication</li>
             <li className="skill-item">Knowledge on Python</li>
+            <li className="skill-item">Knowledge on Blazor</li>
           </ul>
         </div>
         <div className="col-sm-1"></div>

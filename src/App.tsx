@@ -39,6 +39,23 @@ const App: React.FC = () => {
   //     Events.scrollEvent.remove("end");
   //   };
   // }, []);
+
+  function calcDate() {
+    const date1 = new Date();
+    const date2 = new Date('01-Dec-2014');
+    var diff = Math.floor(date1.getTime() - date2.getTime());
+    var day = 1000 * 60 * 60 * 24;
+
+    var days = Math.floor(diff / day);
+    var months = Math.floor(days / 30);
+    var years = Math.floor(months / 12);
+    var month = Math.round(months % 12);
+    var message = "";
+    message += years + " years ";
+    message += month + " months ";
+
+    return message;
+  }
   return (
     <div className="App">
       <div id="wrapper">
@@ -58,14 +75,14 @@ const App: React.FC = () => {
         <div>
           <div>
             <Element name="about" className="element">
-              <About />
+              <About years={calcDate()} />
             </Element>
             <Element name="education" className="element">
               <Education />
             </Element>
 
             <Element name="skills" className="element">
-              <SkillsStack />
+              <SkillsStack years={calcDate()} />
             </Element>
             <Element name="works" className="element">
               <Works />

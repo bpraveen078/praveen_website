@@ -25,7 +25,7 @@ const data = [
   },
   {
     name: "React",
-    exp: 2.5
+    exp: 3
   },
   {
     name: "SQL",
@@ -37,7 +37,7 @@ const data = [
   },
   {
     name: ".NETCore",
-    exp: 2
+    exp: 3
   },
   {
     name: "Mongo DB",
@@ -75,14 +75,14 @@ const CustomizedLabelB = () => {
       textAnchor="start"
       width={180}
       transform="rotate(-90)"
-      //scaleToFit={true}
+    //scaleToFit={true}
     >
       Years
     </Text>
   );
 };
-
-export default class SkillsStack extends PureComponent {
+export interface IAppProps { years: string; }
+export default class SkillsStack extends PureComponent<IAppProps> {
   render() {
     return (
       <div className="section-child technology-stack">
@@ -122,7 +122,7 @@ export default class SkillsStack extends PureComponent {
           </div>
           <div className="col-sm-1"></div>
         </div>
-        <Skills />
+        <Skills years={this.props.years} />
       </div>
     );
   }

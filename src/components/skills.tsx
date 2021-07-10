@@ -1,24 +1,9 @@
 import * as React from "react";
 
-export interface IAppProps {}
+export interface IAppProps { years: string; }
 
-export const Skills: React.FC = (props: IAppProps) => {
-  const today = new Date();
-  const past = new Date("2014-Dec-15");
-  function calcDate(date1: any, date2: any) {
-    var diff = Math.floor(date1.getTime() - date2.getTime());
-    var day = 1000 * 60 * 60 * 24;
+export const Skills: React.FC<IAppProps> = (props: IAppProps) => {
 
-    var days = Math.floor(diff / day);
-    var months = Math.floor(days / 30);
-    var years = Math.floor(months / 12);
-    var month = Math.round(days % 30);
-    var message = "";
-    message += years + " years ";
-    message += month + " months ";
-
-    return message;
-  }
 
   return (
     <div className="">
@@ -30,11 +15,11 @@ export const Skills: React.FC = (props: IAppProps) => {
         <div className="col-sm-8 content">
           <ul className=" skills">
             <li className="skill-item">
-              Total 5.5 years of professional IT experience in the field of
+              Total {props.years} years of professional IT experience in the field of
               Software Development{" "}
             </li>
             <li className="skill-item">
-              2.5 Year of Experience on React Js, Redux, Redux-Saga and React
+              3+ Year of Experience on React Js, Redux, Redux-Saga and React
               Hooks.
             </li>
             <li className="skill-item">
@@ -46,10 +31,10 @@ export const Skills: React.FC = (props: IAppProps) => {
               MVC, WebApi, Entityframework, Sql Server 2012,2014{" "}
             </li>
             <li className="skill-item">
-              2 Year of Experience on Dot Net Core.{" "}
+              3 Year of Experience on Dot Net Core.{" "}
             </li>
             <li className="skill-item">
-              3+ years of experience in Material Design, Bootstrap, HTML, CSS,
+              4+ years of experience in Material Design, Bootstrap, HTML, CSS,
               JavaScript, Typescript. and Jquery{" "}
             </li>
             <li className="skill-item">

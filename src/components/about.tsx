@@ -3,9 +3,11 @@ import praveen_image from "../images/praveen.jpg";
 // @ts-ignore
 import resume from "../images/Praveen_Resume.doc";
 
-export interface IAppProps {}
+export interface IAppProps {
+  years: string;
+}
 
-export const About: React.FC = (props: IAppProps) => {
+export const About: React.FC<IAppProps> = (props: IAppProps) => {
   return (
     <div className="section-child about">
       <div className="row">
@@ -23,7 +25,7 @@ export const About: React.FC = (props: IAppProps) => {
             <div className="content-color-gray">
               <div>I'm full-stack developer,</div>
               <div>
-                For the past 5+ years, I've been developing applications using
+                For the past {props.years}, I've been developing applications using
                 .NET & front end technologies.
               </div>
               <div>
@@ -56,8 +58,11 @@ export const About: React.FC = (props: IAppProps) => {
               <span className="span-about-contact-label">Postal Code</span>:
               500081
               <br />
-              <span className="span-about-contact-label">Email</span>:
+              <span className="span-about-contact-label">Email 1</span>:
               praveen@pbanda.in
+              <br />
+              <span className="span-about-contact-label">Email 2</span>:
+              bpraveendev@gmail.com
               <br />
               <span className="span-about-contact-label">Mobile</span>:+91
               9866078078

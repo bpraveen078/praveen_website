@@ -19,22 +19,22 @@ export const Skills: React.FC<IAppProps> = (props: IAppProps) => {
               Software Development{" "}
             </li>
             <li className="skill-item">
-              3+ Year of Experience on React Js, Redux, Redux-Saga and React
-              Hooks.
+              3+ Year of Experience on React Js, Redux, Redux-Saga, React
+              Hooks and React Story book.
             </li>
             <li className="skill-item">
               3+ Years of Experience on Angular Js, Angular{" "}
             </li>
             <li className="skill-item">
               {" "}
-              4 years of experience in Microsoft Technologies using C#, ASP.NET,
-              MVC, WebApi, Entityframework, Sql Server 2012,2014{" "}
+              6+ years of experience in Microsoft Technologies using C#, ASP.NET,
+              MVC, WebApi, Linq, Entityframework, Sql Server 2012,2014{" "}
             </li>
             <li className="skill-item">
-              3 Year of Experience on Dot Net Core.{" "}
+              3+ Year of Experience on Dot Net Core.{" "}
             </li>
             <li className="skill-item">
-              4+ years of experience in Material Design, Bootstrap, HTML, CSS,
+              5+ years of experience in Material Design, Bootstrap, HTML, CSS,
               JavaScript, Typescript. and Jquery{" "}
             </li>
             <li className="skill-item">
@@ -60,9 +60,14 @@ export const Skills: React.FC<IAppProps> = (props: IAppProps) => {
             <li className="skill-item">
               Knowledge on Karma, Jest and Cypress for unit testing
             </li>
-            <li className="skill-item">knowledge on jwt authentication</li>
+            <li className="skill-item">Good experience on jwt authentication and third party(Gmail, Facebook and Linkedin) authentication</li>
             <li className="skill-item">Knowledge on Python</li>
-            <li className="skill-item">Knowledge on Blazor</li>
+            <li className="skill-item">Knowledge on Microsoft Blazor</li>
+            <li className="skill-item">Worked on React Native and generated apks </li>
+            <li className="skill-item">Having good experience on integrating third party services (SendGrid, Imi mobile sms,
+              Expert pdf and string Template etc..)
+            </li>
+            <li className="skill-item">Worked under Agile scrum methodology</li>
           </ul>
         </div>
         <div className="col-sm-1"></div>

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "react-scroll";
 
-export interface IAppProps {}
+export interface IAppProps { }
 
 export const Footer: React.FC = (props: IAppProps) => {
   return (
@@ -108,7 +108,10 @@ export const Footer: React.FC = (props: IAppProps) => {
         </div>
       </div>
       <div id="copy">
-        &#xa9; Designed and built by <a href="">@pbanda</a> 2020
+        &#xa9; Designed and built by <a href="">Praveen</a> 2019
+      </div>
+      <div className="italic">
+        Impossible is just an opinion.
       </div>
     </footer>
   );

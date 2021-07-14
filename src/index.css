@@ -393,6 +393,9 @@ header.smaller nav a {
   color: #fff;
   font-style: italic;
 }
+.italic{
+  font-style: italic;
+}
 .my-role {
   font-size: 37px;
 }
@@ -518,4 +521,7 @@ header.smaller nav a {
 }
 .contact {
   text-align: left;
+}
+.my-caption{
+  font-size: 12px;
 }

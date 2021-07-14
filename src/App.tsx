@@ -66,6 +66,7 @@ const App: React.FC = () => {
               <div>
                 Praveen Kumar
                 <div className="my-role">Full stack Developer</div>
+                <div className="my-caption">Never stop learning... Never stop coding...</div>
                 <div>{/* <Social /> */}</div>
               </div>
             </div>

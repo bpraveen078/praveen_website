@@ -17,7 +17,7 @@ import { Skills } from "./skills";
 const data = [
   {
     name: ".NET",
-    exp: 5.1
+    exp: 6
   },
   {
     name: "Angular",

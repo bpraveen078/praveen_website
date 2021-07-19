@@ -525,3 +525,6 @@ header.smaller nav a {
 .my-caption{
   font-size: 12px;
 }
+.hidden{
+  display: none;
+}

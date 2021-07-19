@@ -15,12 +15,12 @@ export const Skills: React.FC<IAppProps> = (props: IAppProps) => {
         <div className="col-sm-8 content">
           <ul className=" skills">
             <li className="skill-item">
-              Total {props.years} years of professional IT experience in the field of
+              Total {props.years} of professional IT experience in the field of
               Software Development{" "}
             </li>
             <li className="skill-item">
-              3+ Year of Experience on React Js, Redux, Redux-Saga, React
-              Hooks and React Story book.
+              3+ Year of Experience on React, Redux, Redux-Saga, React
+              Hooks, React Story book and ReCharts.
             </li>
             <li className="skill-item">
               3+ Years of Experience on Angular Js, Angular{" "}
@@ -41,7 +41,7 @@ export const Skills: React.FC<IAppProps> = (props: IAppProps) => {
               Experience with common front-end development tools such as on
               Angular CLI, Webpack, Babel, npm and yarn,
             </li>
-            <li className="skill-item">1 year of experience in Node js</li>
+            <li className="skill-item">1 year of experience in Node js and D3 js.</li>
             <li className="skill-item">
               Having knowledge on RabitMQ and NServiceBUS
             </li>
@@ -49,7 +49,7 @@ export const Skills: React.FC<IAppProps> = (props: IAppProps) => {
               Familiarity with newer specifications of EcmaScript
             </li>
             <li className="skill-item">
-              Having good knowledge on GitHub, TFS, Stash, BitBucket and
+              Having knowledge on GitHub, TFS, Stash, BitBucket and
               SourceTree
             </li>
             <li className="skill-item">Having basic knowledge on MongoDB</li>
@@ -60,11 +60,11 @@ export const Skills: React.FC<IAppProps> = (props: IAppProps) => {
             <li className="skill-item">
               Knowledge on Karma, Jest and Cypress for unit testing
             </li>
-            <li className="skill-item">Good experience on jwt authentication and third party(Gmail, Facebook and Linkedin) authentication</li>
+            <li className="skill-item">Experience on jwt authentication and third party(Gmail, Facebook and Linkedin) authentication</li>
             <li className="skill-item">Knowledge on Python</li>
             <li className="skill-item">Knowledge on Microsoft Blazor</li>
             <li className="skill-item">Worked on React Native and generated apks </li>
-            <li className="skill-item">Having good experience on integrating third party services (SendGrid, Imi mobile sms,
+            <li className="skill-item">Having experience on integrating third party services (SendGrid, Imi mobile sms,
               Expert pdf and string Template etc..)
             </li>
             <li className="skill-item">Worked under Agile scrum methodology</li>

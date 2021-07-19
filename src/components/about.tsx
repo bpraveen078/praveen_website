@@ -1,7 +1,9 @@
 import * as React from "react";
 import praveen_image from "../images/praveen.jpg";
 // @ts-ignore
-import resume from "../images/Praveen_Resume.doc";
+import resume_doc from "../images/Praveen_Resume.doc";
+// @ts-ignore
+import resume_pdf from "../images/Praveen_Resume.pdf";
 
 export interface IAppProps {
   years: string;
@@ -69,8 +71,11 @@ export const About: React.FC<IAppProps> = (props: IAppProps) => {
             </div>
             <div className="col-sm-3">
               {" "}
-              <a className="button-download" href={resume}>
+              <a className="button-download" href={resume_pdf} target='blank'>
                 <i className="fa fa-download"></i> Download Resume
+              </a>
+              <a className="button-download hidden" href={resume_doc} target='blank'>
+                <i className="fa fa-download"></i> Download Resume Doc
               </a>
             </div>
           </div>

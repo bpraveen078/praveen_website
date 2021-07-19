@@ -28,7 +28,7 @@ export const Skills: React.FC<IAppProps> = (props: IAppProps) => {
             <li className="skill-item">
               {" "}
               6+ years of experience in Microsoft Technologies using C#, ASP.NET,
-              MVC, WebApi, Linq, Entityframework, Sql Server 2012,2014{" "}
+              MVC, WebApi, Linq, Entityframework, Sql Server{" "}
             </li>
             <li className="skill-item">
               3+ Year of Experience on Dot Net Core.{" "}

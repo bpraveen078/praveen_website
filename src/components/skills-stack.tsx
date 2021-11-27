@@ -16,16 +16,24 @@ import { Skills } from "./skills";
 
 const data = [
   {
+    name: "C#",
+    exp: 6
+  },
+  {
+    name: "Java Script",
+    exp: 5
+  },
+  {
     name: ".NET",
     exp: 6
   },
   {
     name: "Angular",
-    exp: 3
+    exp: 3.5
   },
   {
     name: "React",
-    exp: 3
+    exp: 4
   },
   {
     name: "SQL",
@@ -37,7 +45,7 @@ const data = [
   },
   {
     name: ".NETCore",
-    exp: 3
+    exp: 4
   },
   {
     name: "Mongo DB",

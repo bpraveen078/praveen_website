@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export interface IAppProps {}
+export interface IAppProps { }
 
 export const Works: React.FC = (props: IAppProps) => {
   return (
@@ -11,6 +11,43 @@ export const Works: React.FC = (props: IAppProps) => {
           <h2 className="underline">Works</h2>
         </div>
         <div className="col-sm-8 content">
+          <div>
+            <h2>UST Information technology (UST Global)</h2>
+            <div className="row">
+              <div className="col-sm-2">
+                <i className="fa fa-user-tag"></i>
+                &nbsp;Desigination&nbsp;&nbsp;&nbsp;&nbsp; :
+              </div>
+              <div className="col-sm-8">Lead 1 Software Engineer</div>
+            </div>
+            <div className="row">
+              <div className="col-sm-2">
+                <i className="fa fa-calendar"></i>
+                &nbsp;Period&nbsp;&nbsp;&nbsp;&nbsp; :
+              </div>
+              <div className="col-sm-8">From - 27-Oct-2021 to Present</div>
+            </div>
+            <div className="row">
+              <div className="col-sm-2">
+                <i className="fas fa-map-marker-alt"></i>
+                &nbsp;Address&nbsp;&nbsp;&nbsp;:
+              </div>
+              <div className="col-sm-8">
+                Hyderabad, India.
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-2">
+                <i className="fas fa-link"></i>&nbsp;Website&nbsp; :
+              </div>
+              <div className="col-sm-8">
+                <a href="https://www.ust.com/" target="_blank">
+                  https://www.ust.com/
+                </a>
+              </div>
+            </div>
+          </div>
+          <br />
           <div>
             <h2>Emids technologies</h2>
             <div className="row">
@@ -25,7 +62,7 @@ export const Works: React.FC = (props: IAppProps) => {
                 <i className="fa fa-calendar"></i>
                 &nbsp;Period&nbsp;&nbsp;&nbsp;&nbsp; :
               </div>
-              <div className="col-sm-8">From - 20-Apr-2020 to Present</div>
+              <div className="col-sm-8">From - 20-Apr-2020 to 25-Oct-2021</div>
             </div>
             <div className="row">
               <div className="col-sm-2">
@@ -33,8 +70,7 @@ export const Works: React.FC = (props: IAppProps) => {
                 &nbsp;Address&nbsp;&nbsp;&nbsp;:
               </div>
               <div className="col-sm-8">
-                Hyderabad, India. Western Aqua 9th Floor, Whitefield Road HITEC
-                City, Hyderabad – 500081
+                Hyderabad, India.
               </div>
             </div>
             <div className="row">
@@ -48,8 +84,6 @@ export const Works: React.FC = (props: IAppProps) => {
               </div>
             </div>
           </div>
-          <br />
-          <br />
           <br />
           <div>
             <h2>Techraq Info Solutions Private Limited</h2>
@@ -73,9 +107,7 @@ export const Works: React.FC = (props: IAppProps) => {
                 &nbsp;Address&nbsp;&nbsp;&nbsp;:
               </div>
               <div className="col-sm-8">
-                # 401,4th Floor, S M Reddy Complex,H No.1-98/8/9/A,Plot
-                No.4,Near Image Garden Function Hall, Image Gardens Lane,
-                Madhapur, Hyderabad, Telangana 500081
+                Hyderabad, India.
               </div>
             </div>
             <div className="row">
@@ -85,6 +117,43 @@ export const Works: React.FC = (props: IAppProps) => {
               <div className="col-sm-8">
                 <a href="http://www.techraq.com/" target="_blank">
                   http://www.techraq.com
+                </a>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div>
+            <h2>Nacre Software Services</h2>
+            <div className="row">
+              <div className="col-sm-2">
+                <i className="fa fa-user-tag"></i>
+                &nbsp;Desigination&nbsp;&nbsp;&nbsp;&nbsp; :
+              </div>
+              <div className="col-sm-8">Trainee (Internship)</div>
+            </div>
+            <div className="row">
+              <div className="col-sm-2">
+                <i className="fa fa-calendar"></i>
+                &nbsp;Period&nbsp;&nbsp;&nbsp;&nbsp; :
+              </div>
+              <div className="col-sm-8">From - 01-June-2014 to 15-Nov-2014</div>
+            </div>
+            <div className="row">
+              <div className="col-sm-2">
+                <i className="fas fa-map-marker-alt"></i>
+                &nbsp;Address&nbsp;&nbsp;&nbsp;:
+              </div>
+              <div className="col-sm-8">
+                Hyderabad, India.
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-2">
+                <i className="fas fa-link"></i>&nbsp;Website&nbsp; :
+              </div>
+              <div className="col-sm-8">
+                <a href="http://www.nacreservices.com/" target="_blank">
+                  http://www.nacreservices.com/
                 </a>
               </div>
             </div>

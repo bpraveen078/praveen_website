@@ -25,7 +25,7 @@ export const About: React.FC<IAppProps> = (props: IAppProps) => {
             <h5>I'm Praveen Kumar Banda,</h5>
 
             <div className="content-color-gray">
-              <div>I'm full-stack developer,</div>
+              <div>I'm a full-stack developer,</div>
               <div>
                 For the past {props.years}, I've been developing applications using
                 .NET & front end technologies.

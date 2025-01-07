@@ -1,3 +1,4 @@
+// filepath: /d:/GitRepos/praveen_website/.github/workflows/jekyll-gh-pages.yml
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
@@ -38,4 +39,6 @@ jobs:
         run: npm run build
 
       - name: Deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run deploy

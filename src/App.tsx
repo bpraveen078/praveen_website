@@ -1,26 +1,31 @@
-import React, { useEffect, useState } from "react";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "./logo.svg";
-
-import layout_bg from "./images/layout_bg.jpg";
 import "./App.css";
-import { Header } from "./components/header";
-import { Footer } from "./components/footer";
+
 import { About } from "./components/about";
-import { Social } from "./components/sicial";
-import { Education } from "./components/education";
-import { Works } from "./components/works";
-import SkillsStack from "./components/skills-stack";
-import { Skills } from "./components/skills";
 import { Contact } from "./components/contact";
+import { Education } from "./components/education";
+import {
+  Element
+} from "react-scroll";
+import { Footer } from "./components/footer";
+import { Header } from "./components/header";
+import React from "react";
+import SkillsStack from "./components/skills-stack";
+import { Works } from "./components/works";
+
+// import logo from "./logo.svg";
+
+// import layout_bg from "./images/layout_bg.jpg";
+
+
+
+
+// import { Social } from "./components/sicial";
+
+
+
+// import { Skills } from "./components/skills";
+
 
 const App: React.FC = () => {
   // useEffect(() => {

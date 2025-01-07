@@ -1,4 +1,5 @@
 import * as React from "react";
+
 import praveen_image from "../images/praveen.jpg";
 // @ts-ignore
 import resume_doc from "../images/Praveen_Resume.doc";
@@ -16,7 +17,7 @@ export const About: React.FC<IAppProps> = (props: IAppProps) => {
         <div className="col-sm-1"></div>
         <div className="col-sm-2">
           <div className="my-img-section">
-            <img className="my-img" src={praveen_image}></img>
+            <img className="my-img" alt="praveenimage" src={praveen_image}></img>
           </div>
         </div>
         <div className="col-sm-8">

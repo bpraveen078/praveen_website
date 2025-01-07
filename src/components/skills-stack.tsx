@@ -2,7 +2,6 @@ import {
   Bar,
   BarChart,
   CartesianGrid,
-  Cell,
   LabelList,
   Legend,
   ResponsiveContainer,
@@ -55,7 +54,7 @@ const data = [
 ];
 
 const renderCustomizedLabel = (props: any) => {
-  const { x, y, width, height, value } = props;
+  const { x, y, width, value } = props;
   const radius = 15;
 
   return (

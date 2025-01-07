@@ -2,9 +2,6 @@ import React, { useState, useEffect } from "react";
 import praveen_image from "../images/praveen.jpg";
 import { Link } from "react-scroll";
 import {
-  BrowserView,
-  MobileView,
-  isBrowser,
   isMobile
 } from "react-device-detect";
 import "../menu-styles.css";
@@ -26,6 +23,7 @@ export const Header: React.FC = (props: IAppProps) => {
           <div className="my-img-mobile-container">
             <div className="">
               <img
+              alt="praveenimage"
                 id="my-img-mobile"
                 className="my-img-mobile-hide"
                 src={praveen_image}

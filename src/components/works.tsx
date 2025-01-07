@@ -41,7 +41,7 @@ export const Works: React.FC = (props: IAppProps) => {
                 <i className="fas fa-link"></i>&nbsp;Website&nbsp; :
               </div>
               <div className="col-sm-8">
-                <a href="https://www.ust.com/" target="_blank">
+                <a href="https://www.ust.com/" target="_blank" rel="noreferrer">
                   https://www.ust.com/
                 </a>
               </div>
@@ -78,7 +78,7 @@ export const Works: React.FC = (props: IAppProps) => {
                 <i className="fas fa-link"></i>&nbsp;Website&nbsp; :
               </div>
               <div className="col-sm-8">
-                <a href="https://www.emids.com/" target="_blank">
+                <a href="https://www.emids.com/" target="_blank" rel="noreferrer">
                   https://www.emids.com
                 </a>
               </div>
@@ -115,7 +115,7 @@ export const Works: React.FC = (props: IAppProps) => {
                 <i className="fas fa-link"></i>&nbsp;Website&nbsp; :
               </div>
               <div className="col-sm-8">
-                <a href="http://www.techraq.com/" target="_blank">
+                <a href="http://www.techraq.com/" target="_blank" rel="noreferrer">
                   http://www.techraq.com
                 </a>
               </div>
@@ -152,7 +152,7 @@ export const Works: React.FC = (props: IAppProps) => {
                 <i className="fas fa-link"></i>&nbsp;Website&nbsp; :
               </div>
               <div className="col-sm-8">
-                <a href="http://www.nacreservices.com/" target="_blank">
+                <a href="http://www.nacreservices.com/" target="_blank" rel="noreferrer">
                   http://www.nacreservices.com/
                 </a>
               </div>

@@ -108,7 +108,7 @@ export const Footer: React.FC = (props: IAppProps) => {
         </div>
       </div>
       <div id="copy">
-        &#xa9; Designed and built by <a href="">Praveen</a> 2019
+        &#xa9; Designed and built by Praveen 2019
       </div>
       <div className="italic">
         Impossible is just an opinion.

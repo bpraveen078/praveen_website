@@ -10,7 +10,7 @@ export const Skills: React.FC<IAppProps> = (props: IAppProps) => {
       <div className="row">
         <div className="col-sm-1"></div>
         <div className="col-sm-2">
-          <h2 className="underline"></h2>
+          <hr/>
         </div>
         <div className="col-sm-8 content">
           <ul className=" skills">

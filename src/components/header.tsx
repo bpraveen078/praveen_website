@@ -6,7 +6,7 @@ import {
 } from "react-device-detect";
 import "../menu-styles.css";
 
-export interface IAppProps {}
+export interface IAppProps { }
 
 export const Header: React.FC = (props: IAppProps) => {
   const [isOpen, setOpen] = useState(false);
@@ -23,7 +23,7 @@ export const Header: React.FC = (props: IAppProps) => {
           <div className="my-img-mobile-container">
             <div className="">
               <img
-              alt="praveenimage"
+                alt="praveenimage"
                 id="my-img-mobile"
                 className="my-img-mobile-hide"
                 src={praveen_image}
@@ -36,7 +36,6 @@ export const Header: React.FC = (props: IAppProps) => {
         )}
 
         <div className="container clearfix">
-          <h1 id="logo"></h1>
           <nav className={isOpen ? "nav-mobile" : "hide-menu"}>
             <Link
               activeClass="active"

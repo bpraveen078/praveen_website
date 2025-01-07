@@ -372,6 +372,7 @@ header.smaller nav a {
   font-size: 18px;
   cursor: pointer;
   color: #fff;
+  text-decoration: none;
 }
 .element {
   min-height: 200px;

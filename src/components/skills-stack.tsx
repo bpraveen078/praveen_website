@@ -1,43 +1,44 @@
-import React, { PureComponent } from "react";
 import {
-  BarChart,
   Bar,
-  Cell,
-  XAxis,
-  YAxis,
+  BarChart,
   CartesianGrid,
-  Tooltip,
-  Legend,
+  Cell,
   LabelList,
+  Legend,
   ResponsiveContainer,
-  Text
+  Text,
+  Tooltip,
+  XAxis,
+  YAxis
 } from "recharts";
+import React, { PureComponent } from "react";
+
 import { Skills } from "./skills";
 
 const data = [
   {
     name: "C#",
-    exp: 6
+    exp: 8
   },
   {
     name: "Java Script",
-    exp: 5
+    exp: 8
   },
   {
     name: ".NET",
-    exp: 6
+    exp: 8
   },
   {
     name: "Angular",
-    exp: 3.5
+    exp: 7.2
   },
   {
     name: "React",
-    exp: 4
+    exp: 7.2
   },
   {
     name: "SQL",
-    exp: 4
+    exp: 8
   },
   {
     name: "Node",
@@ -45,7 +46,7 @@ const data = [
   },
   {
     name: ".NETCore",
-    exp: 4
+    exp: 7
   },
   {
     name: "Mongo DB",
@@ -61,7 +62,7 @@ const renderCustomizedLabel = (props: any) => {
     <g>
       <circle cx={x + width / 2} cy={y - radius} r={radius} fill="#8884d8" />
       <text
-        x={x + width / 2}
+        x={(x + width / 2)}
         y={y - radius}
         fill="#fff"
         textAnchor="middle"
@@ -79,7 +80,7 @@ const CustomizedLabelB = () => {
       x={0}
       y={0}
       dx={-144}
-      dy={40}
+      dy={50}
       textAnchor="start"
       width={180}
       transform="rotate(-90)"

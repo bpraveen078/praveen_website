@@ -19,22 +19,22 @@ export const Skills: React.FC<IAppProps> = (props: IAppProps) => {
               Software Development{" "}
             </li>
             <li className="skill-item">
-              3+ Year of Experience on React, Redux, Redux-Saga, React
+              7+ Year of Experience on React, Redux, Redux-Saga, React
               Hooks, React Story book and ReCharts.
             </li>
             <li className="skill-item">
-              3+ Years of Experience on Angular Js, Angular{" "}
+              7+ Years of Experience on Angular Js, Angular{" "}
             </li>
             <li className="skill-item">
               {" "}
-              6+ years of experience in Microsoft Technologies using C#, ASP.NET,
+              8+ years of experience in Microsoft Technologies using C#, ASP.NET,
               MVC, WebApi, Linq, Entityframework, Sql Server{" "}
             </li>
             <li className="skill-item">
-              3+ Year of Experience on Dot Net Core.{" "}
+              7+ Year of Experience on Dot Net Core.{" "}
             </li>
             <li className="skill-item">
-              5+ years of experience in Material Design, Bootstrap, HTML, CSS,
+              8+ years of experience in Material Design, Bootstrap, HTML, CSS,
               JavaScript, Typescript. and Jquery{" "}
             </li>
             <li className="skill-item">

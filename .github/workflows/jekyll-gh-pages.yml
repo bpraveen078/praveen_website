@@ -41,5 +41,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN}}
         run: |
-          npx gh-pages -d build --repo https://x-access-token:${GITHUB_TOKEN}@github.com/praveendev404/praveen_website.git
+          npx gh-pages -d build --repo https://praveendev404:${GITHUB_TOKEN}@github.com//praveendev404/praveen_website.git
           npm run deploy

@@ -41,5 +41,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN}}
         run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          npx gh-pages -d build --repo https://praveendev404:${GITHUB_TOKEN}@github.com/praveendev404/praveen_website.git
           npm run deploy

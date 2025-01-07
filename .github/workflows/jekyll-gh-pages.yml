@@ -1,4 +1,4 @@
-// filepath: /d:/GitRepos/praveen_website/.github/workflows/jekyll-gh-pages.yml
+
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:

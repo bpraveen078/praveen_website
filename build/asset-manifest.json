@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/praveen_website/static/css/main.5898f100.css",
-    "main.js": "/praveen_website/static/js/main.ecb949fb.js",
-    "static/media/pep1.jpg": "/praveen_website/static/media/pep1.f600eb80678e22cdfbf5.jpg",
-    "static/media/Praveen_Resume.pdf": "/praveen_website/static/media/Praveen_Resume.a4ae6a22c9f7206fa075.pdf",
-    "static/media/w4.jpg": "/praveen_website/static/media/w4.d5ec9a6959b4c5cf42d9.jpg",
-    "static/media/u3.jpg": "/praveen_website/static/media/u3.1ed022508d313999c971.jpg",
-    "static/media/Praveen_Resume.doc": "/praveen_website/static/media/Praveen_Resume.94a84681c0dfaab4b24a.doc",
-    "static/media/praveen.jpg": "/praveen_website/static/media/praveen.af8815e814d27cd7d76b.jpg",
-    "index.html": "/praveen_website/index.html",
-    "main.5898f100.css.map": "/praveen_website/static/css/main.5898f100.css.map",
-    "main.ecb949fb.js.map": "/praveen_website/static/js/main.ecb949fb.js.map"
+    "main.css": "/static/css/main.027ff83b.css",
+    "main.js": "/static/js/main.4f5769ba.js",
+    "static/media/pep1.jpg": "/static/media/pep1.f600eb80678e22cdfbf5.jpg",
+    "static/media/Praveen_Resume.pdf": "/static/media/Praveen_Resume.a4ae6a22c9f7206fa075.pdf",
+    "static/media/w4.jpg": "/static/media/w4.d5ec9a6959b4c5cf42d9.jpg",
+    "static/media/u3.jpg": "/static/media/u3.1ed022508d313999c971.jpg",
+    "static/media/Praveen_Resume.doc": "/static/media/Praveen_Resume.94a84681c0dfaab4b24a.doc",
+    "static/media/praveen.jpg": "/static/media/praveen.af8815e814d27cd7d76b.jpg",
+    "index.html": "/index.html",
+    "main.027ff83b.css.map": "/static/css/main.027ff83b.css.map",
+    "main.4f5769ba.js.map": "/static/js/main.4f5769ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.5898f100.css",
-    "static/js/main.ecb949fb.js"
+    "static/css/main.027ff83b.css",
+    "static/js/main.4f5769ba.js"
   ]
 }
